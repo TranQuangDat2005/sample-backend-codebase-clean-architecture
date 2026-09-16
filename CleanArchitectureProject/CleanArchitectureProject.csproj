@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
@@ -21,7 +21,8 @@
     <Folder Include="Infrastructure\Persistence\Migrations\" />
     <Folder Include="Infrastructure\Persistence\Repositories\" />
     <Folder Include="Presentation\Controllers\" />
-    <Folder Include="Presentation\Middlewares\" />
+    <Folder Include="Presentation\Filters\" />
+    <Folder Include="Host\Middlewares\" />
   </ItemGroup>
 
 </Project>
